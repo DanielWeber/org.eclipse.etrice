@@ -12,6 +12,7 @@
   <rm:locator pattern="^org.eclipse.etrice.runtime\..*$" searchPathRef="etrice.runtime"/>
   <rm:locator pattern="^org.eclipse.etrice\..*\.tests$" searchPathRef="etrice.tests"/>
   <rm:locator pattern="^org.eclipse.etrice\..*$" searchPathRef="etrice.plugins"/>
+  <rm:locator pattern="^org.antlr.runtime$" searchPathRef="orbit"/>
   <rm:locator pattern="^.*\.antlr.*$" searchPathRef="itemis"/>
   <rm:locator searchPathRef="Eclipse"/>
   <rm:searchPath name="graphiti">
@@ -24,6 +25,12 @@
     <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" mutable="false">
       <rm:property key="buckminster.mutable" value="false"/>
       <rm:uri format="http://download.itemis.com/updates/releases/site/"/>
+    </rm:provider>
+  </rm:searchPath>
+  <rm:searchPath name="orbit">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" mutable="false">
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="http://download.eclipse.org/tools/orbit/downloads/drops/R20100519200754/repository"/>
     </rm:provider>
   </rm:searchPath>
   <rm:searchPath name="Eclipse">
