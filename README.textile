@@ -1,0 +1,3 @@
+This is in no way an official mirror or fork or anything. It's just a place for me to work on "buckminsterization" and won't last long. 
+
+For information on eTrice, visit the "project's homepage":http://www.eclipse.org/etrice/. The official source repository can be found at "git.eclipse.org":http://git.eclipse.org/c/etrice/org.eclipse.etrice.git/.
